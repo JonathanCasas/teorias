@@ -28,7 +28,7 @@ public class Teorias {
     public static void main(String[] args) {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int opcion = 4;
+        int opcion = 4;// se selecciona el ejercisio que se quiere ejecutar
         boolean aceptada = false;
         try {
             mostrar(bw, "Digite la cadena");
